@@ -1,0 +1,26 @@
+@import './materialize.scss';
+*{
+    padding: 0;
+    margin: 0;
+}
+.whole-body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .brand-logo{
+        img{
+            margin-top: 8px;
+            width: 45px;
+        }
+        
+    }
+    form {
+        label{
+            color: white !important;
+        }
+    }
+
+}
